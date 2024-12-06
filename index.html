@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+  <a href="#achievement" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-trophy w3-xxlarge"></i>
+    <p>ACHIEVEMENT</p>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-address-book w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+   <a href="#achievement" class="w3-bar-item w3-button" style="width:25% !important">ACHIEVEMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <img src="motivational-success-quote-black-background-your-dreams-are-valid-free-vector-removebg-preview (1).png" alt="boy" class="w3-image" width="482">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Aahan Arora.</h1>
+    <p>Student and an Aspiring Engineer.</p>
+  </header>
+
+  <!-- About Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Aahan Arora</h2>
+    <hr style="width:200px" class="w3-opacity">
+    
+    <p>I am currently a third-year student at Chitkara University, pursuing a Bachelor's degree in Computer Science Engineering. Throughout my academic journey, I've developed a strong passion for programming and problem-solving. I have honed my skills in various programming languages, algorithms, and data structures, and enjoy taking on projects that challenge my creativity and technical abilities.</p>
+    
+    <div class="w3-padding-64 w3-content">
+        <h3 class="w3-text-light-grey">Download My CV</h3>
+        <p>Click the link below to download my CV:</p>
+        <a href="Aahan Arora Resume.pdf" class="w3-button w3-black w3-hover-opacity" target="_blank">Download CV</a>
+    </div>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    
+    <!-- Technical Skills -->
+    <h4 class="w3-text-light-grey">Technical Skills</h4>
+    <p class="w3-wide">React.js</p>
+    <div class="w3-white">
+    </div>
+    <p class="w3-wide">HTML</p>
+    <div class="w3-white">
+    </div>
+    <p class="w3-wide">CSS</p>
+    <div class="w3-white">
+    </div>
+  
+    <!-- Soft Skills -->
+    <h4 class="w3-text-light-grey">Soft Skills</h4>
+    <p class="w3-wide">Team Collaboration</p>
+    <div class="w3-white">
+    </div>
+    <p class="w3-wide">Attention to Detail</p>
+    <div class="w3-white">
+    </div>
+    <p class="w3-wide">Work Ethic</p>
+    <div class="w3-white">
+    </div>
+  </div>
+  
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="photos">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+  
+      <div class="w3-container">
+        <h3>Blog Verse</h3>
+        <p><strong>Role:</strong> Designed core pages and navigation</p>
+        <p>A React-powered web app for creating, managing, and sharing blog posts with an intuitive interface, responsive design, and seamless user experience.</p>
+        <a href="https://itachiuchiha0024.github.io/BlogVerse/index.html" target="_blank" class="w3-button w3-black w3-hover-opacity">View Project</a>
+    </div>
+  
+      <div class="w3-container">
+        <h3>Nayi Disha</h3>
+        <p><strong>Role:</strong> Developed and Designed the Frontend</p>
+        <p>A Job Portal built with the MERN stack (MongoDB, Express.js, React, and Node.js) that connects job seekers and employers in a modern, dynamic web application.</p>
+        <a href="https://itachiuchiha0024.github.io/NayiDisha/index.html" target="_blank" class="w3-button w3-black w3-hover-opacity">View Project</a>
+    </div>
+  </div>
+  
+<!-- Achievement Section -->
+<div class="w3-padding-64 w3-content w3-text-grey" id="achievement">
+    <h2 class="w3-text-light-grey">Achievements</h2>
+    <hr style="width:200px" class="w3-opacity">
+    
+    <!-- Certificate 1 -->
+        <div class="w3-container">
+        <h3>Introduction to Cybersecurity</h3>
+        <p><strong>Issuing Authority:</strong> CISCO</p>
+        <p><strong>Obtained:</strong> April 2024</p>
+        <p><strong>Certificate Link:</strong> <a href="https://www.credly.com/badges/cdadfd99-e065-4682-be52-db353862f0eb/public_url" target="_blank">View Certificate</a></p>
+    </div>
+  
+    <!-- Certificate 2 -->
+        <div class="w3-container">
+        <h3>Generative AI: Prompt Engineering</h3>
+        <p><strong>Issuing Authority:</strong> Coursera</p>
+        <p><strong>Obtained:</strong> October 2024</p>
+        <p><strong>Certificate Link:</strong> <a href="https://www.credly.com/badges/3b804d6b-52a0-4856-a405-dffecaed5220/print" target="_blank">View Certificate</a></p>
+    </div>
+  
+    <!-- Certificate 3 -->
+        <div class="w3-container">
+        <h3>Generative AI by Google Cloud</h3>
+        <p><strong>Issuing Authority:</strong> L4G</p>
+        <p><strong>Obtained:</strong> October 2024</p>
+        <p><strong>Certificate Link:</strong> <a href="#" target="_blank">View Certificate</a></p>
+      </div>
+  </div>
+  
+  
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+ 
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://github.com/iAahanX0" target="_blank" class="w3-hover-opacity"style="margin-right: 5px;">
+        <i class="fa fa-github"></i>
+    <a href="https://www.linkedin.com/in/aahan-arora/" target="_blank" class="w3-hover-opacity">
+      <i class="fa fa-linkedin"></i>
+      <br>
+      <div class="w3-padding-32">
+        <p><strong>Email:</strong> <a href="mailto:aahan.arora@yahoo.com">aahan.arora@yahoo.com</a></p>
+        <p><strong>Phone Number:</strong> +91 9815731999</p>
+      </div>
+    </div>
+      </a>
+    </a>
+
+
+    </a>
+  </footer>
+  </div>
+  
+  </body>
+  </html>
